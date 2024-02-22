@@ -34,3 +34,8 @@ body{
 .form .icons i{
 padding-left: 1.2vw;
 }
+nav{
+ margin-top: 1vw !important;
+    padding: 2vw !important;
+    background: white !important;
+}
