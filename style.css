@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vw;
+}
+.form .number {
+  font-size: 1vw;
+  font-weight: bold;
+}
+.form .number span {
+  color: #9e9b9b;
+  font-size: 1vw;
+  font-weight: bold;
+}
+.form .icons i{
+padding-left: 1.2vw;
+}
