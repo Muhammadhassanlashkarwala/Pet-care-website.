@@ -191,38 +191,124 @@ nav {
   cursor: pointer;
 }
 .container-fluid {
-  height: 140vh;
+  height: 121vh;
   width: 100%;
-  margin-top: 12vw;
+  margin-top: 15vw;
   display: flex;
 }
 .image-fluid img {
   height: 53vw;
+  margin-left: 5vw;
 }
 .colors-fluid {
   margin-top: 7vw;
   margin-left: 7vw;
-
 }
 .colors-fluid h6 {
   font-size: 1vw;
-  color: #fd4c82;
+  color: #fd4e83;
   font-weight: bold;
 }
-.colors-fluid h1{
+.colors-fluid h1 {
   font-weight: bolder;
 }
-.colors-fluid p{
+.colors-fluid p {
   color: #6c757d;
   margin-top: 2vw;
   margin-bottom: 3vw;
- }
-.colors-fluid img{
+}
+.colors-fluid img {
   height: 3.4vw;
   margin-bottom: 1vw;
 }
-.colors-fluid .textcenter{
+.colors-fluid .textcenter {
   margin-left: 1vw;
   font-weight: bolder;
   font-size: 1.4vw;
+}
+.next-part {
+  height: 52vh;
+  width: 100%;
+  background: whitesmoke;
+}
+.next-part h6 {
+  font-size: 1vw;
+  padding-top: 4vw;
+  font-weight: 800;
+  padding-bottom: 3vw;
+  color: #fd4c82;
+}
+.input-forms{
+  margin-left: 6vw;
+}
+input{
+  height: 4vw;
+  width: 18vw;
+  /* padding: 10px; */
+  padding-left: 2%;
+  outline: none;
+  border: none;
+  /* background: whitesmoke;
+  outline: 1px solid black; */
+}
+.name1{
+  margin-right: 3vw;
+}
+.name2{
+  margin-right: 3vw;
+}
+.name3{
+  margin-right: 3vw;
+}
+.name4{
+  margin-right: 2.8vw;
+}
+.name1::placeholder{
+  color: black;
+}
+.name2::placeholder{
+  color: black;
+}
+.name3::placeholder{
+  color: black;
+}
+.name7::placeholder{
+  color: black;
+}
+.name6::placeholder{
+  color: black;
+}
+.name5{
+  margin-right: 2.8vw;
+}
+.name6{
+  margin-right: 2.2vw;
+}
+.greens-button {
+  border: none;
+  border-radius: 0.6vw;
+  outline: none;
+  background-color: #91c235;
+  color: white;
+  /* font-weight: bold; */
+  padding: 1.1vw 5.3vw;
+  margin-left: 0.4vw;
+}
+.greens-button:hover {
+  background: white;
+  outline: 1px solid #91c235;
+  color: #91c235;
+}
+.Groomers-part{
+  height: 100vh;
+  width: 100%;
+}
+.Groomers-part h6{
+  font-size: 1vw;
+  color: #fd4c82;
+  margin-top: 6vw;
+  font-weight: 800;
+}
+.Groomers-part h1{
+  font-weight: bolder;
 }
