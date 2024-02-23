@@ -506,3 +506,131 @@ p:hover {
   color: white;
   background: #91c235;
 }
+
+.card-4 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 22vw;
+  background: whitesmoke;
+}
+.card-4 img {
+  height: 16vw;
+  border: 10px solid white;
+  margin-top: -6vw;
+  width: 16vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+.card-4 h2 {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 4.5vw;
+}
+.card-4 p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #fd4c82;
+  margin-left: 7.9vw;
+}
+.card-4 .icons-2 {
+  margin-left: 2.5vw;
+}
+.icons-3 i {
+  margin-left: 1vw;
+  font-size: larger;
+}
+.bg-op i {
+  background: #fd4c82;
+  color: white;
+  padding: 0.3vw 0.5vw;
+  border-radius: 0.3vw;
+}
+.card-4:hover {
+  background: #91c235;
+  color: white;
+  transition: 0.2s;
+}
+.card-4,
+h2:hover {
+  color: white;
+}
+.card-4,
+p:hover {
+  color: white;
+}
+.icons-2 i:hover {
+  background: white;
+  color: #91c235;
+}
+.hoverl:hover {
+  color: white;
+  background: #91c235;
+}
+
+.card-2 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 22vw;
+  background: whitesmoke;
+}
+.card-2 img {
+  height: 16vw;
+  border: 10px solid white;
+  margin-top: -6vw;
+  width: 16vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+.card-2 h2 {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+.card-2 p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #fd4c82;
+  margin-left: 7.8vw;
+}
+.card-2 .icons-2 {
+  margin-left: 2.5vw;
+}
+.icons-2 i {
+  margin-left: 1vw;
+  font-size: larger;
+}
+.bg-op i {
+  background: #fd4c82;
+  color: white;
+  padding: 0.3vw 0.5vw;
+  border-radius: 0.3vw;
+}
+.card-2:hover {
+  background: #91c235;
+  color: white;
+  transition: 0.2s;
+}
+.card-2,
+h2:hover {
+  color: white;
+}
+.card-2,
+p:hover {
+  color: white;
+}
+.icons-2 i:hover {
+  background: white;
+  color: #91c235;
+}
+.hoverl:hover {
+  color: white;
+  background: #91c235;
+}
