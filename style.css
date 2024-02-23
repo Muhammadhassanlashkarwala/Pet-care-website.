@@ -238,10 +238,10 @@ nav {
   padding-bottom: 3vw;
   color: #fd4c82;
 }
-.input-forms{
+.input-forms {
   margin-left: 6vw;
 }
-input{
+input {
   height: 4vw;
   width: 18vw;
   /* padding: 10px; */
@@ -251,37 +251,37 @@ input{
   /* background: whitesmoke;
   outline: 1px solid black; */
 }
-.name1{
+.name1 {
   margin-right: 3vw;
 }
-.name2{
+.name2 {
   margin-right: 3vw;
 }
-.name3{
+.name3 {
   margin-right: 3vw;
 }
-.name4{
+.name4 {
   margin-right: 2.8vw;
 }
-.name1::placeholder{
+.name1::placeholder {
   color: black;
 }
-.name2::placeholder{
+.name2::placeholder {
   color: black;
 }
-.name3::placeholder{
+.name3::placeholder {
   color: black;
 }
-.name7::placeholder{
+.name7::placeholder {
   color: black;
 }
-.name6::placeholder{
+.name6::placeholder {
   color: black;
 }
-.name5{
+.name5 {
   margin-right: 2.8vw;
 }
-.name6{
+.name6 {
   margin-right: 2.2vw;
 }
 .greens-button {
@@ -299,16 +299,210 @@ input{
   outline: 1px solid #91c235;
   color: #91c235;
 }
-.Groomers-part{
+.Groomers-part {
   height: 100vh;
   width: 100%;
 }
-.Groomers-part h6{
+.Groomers-part h6 {
   font-size: 1vw;
   color: #fd4c82;
   margin-top: 6vw;
   font-weight: 800;
 }
-.Groomers-part h1{
+.Groomers-part h1 {
   font-weight: bolder;
+}
+.cards-start {
+  display: flex;
+}
+.card-1 {
+  margin-top: 6vw;
+  margin-left: 6vw;
+  width: 20vw;
+  height: 22vw;
+  background: whitesmoke;
+}
+.card-1 img {
+  height: 16vw;
+  border: 10px solid white;
+  margin-top: -6vw;
+  width: 16vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+.card-1 h2 {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 6vw;
+}
+.card-1 p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #fd4c82;
+  margin-left: 6.7vw;
+}
+.card-1 .icons-2 {
+  margin-left: 2.5vw;
+}
+.icons-2 i {
+  margin-left: 1vw;
+  font-size: larger;
+}
+.bg-op i {
+  background: #fd4c82;
+  color: white;
+  padding: 0.3vw 0.5vw;
+  border-radius: 0.3vw;
+}
+.card-1:hover {
+  background: #91c235;
+  color: white;
+  transition: 0.2s;
+}
+.card-1,
+h2:hover {
+  color: white;
+}
+.card-1,
+p:hover {
+  color: white;
+}
+.icons-2 i:hover {
+  background: white;
+  color: #91c235;
+}
+.hoverl:hover {
+  color: white;
+  background: #91c235;
+}
+
+.card-3 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 22vw;
+  background: whitesmoke;
+}
+.card-3 img {
+  height: 16vw;
+  border: 10px solid white;
+  margin-top: -6vw;
+  width: 16vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+.card-3 h2 {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 7vw;
+}
+.card-3 p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #fd4c82;
+  margin-left: 7.9vw;
+}
+.card-3 .icons-2 {
+  margin-left: 2.5vw;
+}
+.icons-3 i {
+  margin-left: 1vw;
+  font-size: larger;
+}
+.bg-op i {
+  background: #fd4c82;
+  color: white;
+  padding: 0.3vw 0.5vw;
+  border-radius: 0.3vw;
+}
+.card-3:hover {
+  background: #91c235;
+  color: white;
+  transition: 0.2s;
+}
+.card-3,
+h2:hover {
+  color: white;
+}
+.card-3,
+p:hover {
+  color: white;
+}
+.icons-2 i:hover {
+  background: white;
+  color: #91c235;
+}
+.hoverl:hover {
+  color: white;
+  background: #91c235;
+}
+
+.card-2 {
+  margin-top: 6vw;
+  margin-left: 2vw;
+  width: 20vw;
+  height: 22vw;
+  background: whitesmoke;
+}
+.card-2 img {
+  height: 16vw;
+  border: 10px solid white;
+  margin-top: -6vw;
+  width: 16vw;
+  margin-left: 2vw;
+  border-radius: 50%;
+}
+.card-2 h2 {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  font-weight: bold;
+  margin-left: 6vw;
+}
+.card-2 p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #fd4c82;
+  margin-left: 6.7vw;
+}
+.card-2 .icons-2 {
+  margin-left: 2.5vw;
+}
+.icons-2 i {
+  margin-left: 1vw;
+  font-size: larger;
+}
+.bg-op i {
+  background: #fd4c82;
+  color: white;
+  padding: 0.3vw 0.5vw;
+  border-radius: 0.3vw;
+}
+.card-2:hover {
+  background: #91c235;
+  color: white;
+  transition: 0.2s;
+}
+.card-2,
+h2:hover {
+  color: white;
+}
+.card-2,
+p:hover {
+  color: white;
+}
+.icons-2 i:hover {
+  background: white;
+  color: #91c235;
+}
+.hoverl:hover {
+  color: white;
+  background: #91c235;
 }
