@@ -131,7 +131,7 @@ nav {
 }
 
 .box-1 span {
-  padding-left: 4vw;
+  padding-left: 3.4vw;
   font-size: 1.3vw;
 }
 .box-1 p {
@@ -155,7 +155,7 @@ nav {
   padding-left: 2vw;
 }
 .box-2 span {
-  padding-left: 3.2vw;
+  padding-left: 2.8vw;
   font-size: 1.3vw;
 }
 .box-2 p {
@@ -179,11 +179,11 @@ nav {
   padding-left: 2vw;
 }
 .box-3 span {
-  padding-left: 1.9vw;
+  padding-left: 1.5vw;
   font-size: 1.3vw;
 }
 .box-3 p {
-  padding-left: 10.8vw;
+  padding-left: 9vw;
 }
 .box-3:hover {
   background: #fd4c82;
@@ -191,7 +191,38 @@ nav {
   cursor: pointer;
 }
 .container-fluid {
-  height: 100vh;
+  height: 140vh;
   width: 100%;
-  margin-top: 6vw;
+  margin-top: 12vw;
+  display: flex;
+}
+.image-fluid img {
+  height: 53vw;
+}
+.colors-fluid {
+  margin-top: 7vw;
+  margin-left: 7vw;
+
+}
+.colors-fluid h6 {
+  font-size: 1vw;
+  color: #fd4c82;
+  font-weight: bold;
+}
+.colors-fluid h1{
+  font-weight: bolder;
+}
+.colors-fluid p{
+  color: #6c757d;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+ }
+.colors-fluid img{
+  height: 3.4vw;
+  margin-bottom: 1vw;
+}
+.colors-fluid .textcenter{
+  margin-left: 1vw;
+  font-weight: bolder;
+  font-size: 1.4vw;
 }
