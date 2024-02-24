@@ -191,7 +191,7 @@ nav {
   cursor: pointer;
 }
 .container-fluid {
-  height: 121vh;
+  height: 130vh;
   width: 100%;
   margin-top: 15vw;
   display: flex;
@@ -300,13 +300,13 @@ input {
   color: #91c235;
 }
 .Groomers-part {
-  height: 100vh;
+  height: 83vh;
   width: 100%;
 }
 .Groomers-part h6 {
   font-size: 1vw;
   color: #fd4c82;
-  margin-top: 6vw;
+  margin-top: 10vw;
   font-weight: 800;
 }
 .Groomers-part h1 {
@@ -316,7 +316,7 @@ input {
   display: flex;
 }
 .card-1 {
-  margin-top: 6vw;
+  margin-top: 10vw;
   margin-left: 6vw;
   width: 20vw;
   height: 22vw;
@@ -380,7 +380,7 @@ p:hover {
 }
 
 .card-3 {
-  margin-top: 6vw;
+  margin-top: 10vw;
   margin-left: 2vw;
   width: 20vw;
   height: 22vw;
@@ -508,7 +508,7 @@ p:hover {
 }
 
 .card-4 {
-  margin-top: 6vw;
+  margin-top: 10vw;
   margin-left: 2vw;
   width: 20vw;
   height: 22vw;
@@ -572,7 +572,7 @@ p:hover {
 }
 
 .card-2 {
-  margin-top: 6vw;
+  margin-top: 10vw;
   margin-left: 2vw;
   width: 20vw;
   height: 22vw;
@@ -633,4 +633,32 @@ p:hover {
 .hoverl:hover {
   color: white;
   background: #91c235;
+}
+
+.bg-attachment {
+  height: 100vh;
+  width: 100%;
+  background: whitesmoke;
+}
+.bg-attachment h6 {
+  font-size: 1vw;
+  color: #fd4c82;
+  margin-top: 6vw;
+  padding-top: 8vw;
+  font-weight: 800;
+}
+.bg-attachment h1 {
+  font-weight: bolder;
+}
+.cards-1 {
+  height: 22vw;
+  width: 20vw;
+  margin-left: 6vw;
+  background: white;
+  box-sizing: border-box;
+}
+.cards-1 img {
+  height: 20vw;
+  width: 20vw;
+  box-sizing: border-box;
 }
