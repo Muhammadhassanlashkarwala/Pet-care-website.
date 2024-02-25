@@ -636,7 +636,7 @@ p:hover {
 }
 
 .bg-attachment {
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   background: whitesmoke;
 }
@@ -651,14 +651,19 @@ p:hover {
   font-weight: bolder;
 }
 .cards-1 {
-  height: 22vw;
+  height: 50vw;
   width: 20vw;
   margin-left: 6vw;
   background: white;
+  border-radius: 0.8vw;
   box-sizing: border-box;
+ 
 }
 .cards-1 img {
-  height: 20vw;
+  height: 15vw;
   width: 20vw;
   box-sizing: border-box;
+  border-radius: 0.8vw;
+  border-bottom-left-radius: 0vw;
+  border-bottom-right-radius: 0vw;
 }
