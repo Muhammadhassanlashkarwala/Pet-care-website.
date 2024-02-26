@@ -657,7 +657,6 @@ p:hover {
   background: white;
   border-radius: 0.8vw;
   box-sizing: border-box;
- 
 }
 .cards-1 img {
   height: 15vw;
@@ -666,4 +665,34 @@ p:hover {
   border-radius: 0.8vw;
   border-bottom-left-radius: 0vw;
   border-bottom-right-radius: 0vw;
+}
+.cards-1 h2 {
+  font-size: 1.3vw;
+  color: #fd4c82;
+  margin-left: 8vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+.cards-1 .lesser{
+  margin-left: 6.3vw;
+  font-size: 3vw;
+  color: #9e9b9b;
+}
+.cards-1 .greater {
+  font-size: 4vw;
+  font-weight: 800;
+  color:#fd4c82 ;
+}
+.cards-1 .smaller{
+  font-size: 1.5vw;
+  color: #9e9b9b;
+}
+.icon-padding{
+  margin-top: 2vw;
+  margin-left: 2.3vw;
+}
+.icon-padding .icon{
+ padding: 1vw 4vw ;
+ background: whitesmoke;
 }
