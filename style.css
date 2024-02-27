@@ -634,10 +634,10 @@ p:hover {
   color: white;
   background: #91c235;
 }
-   /* bg-attach-section */
-   
+/* bg-attach-section */
+
 .bg-attachment {
-  height: 300vh;
+  height: 400vh;
   width: 100%;
   background: whitesmoke;
 }
@@ -913,89 +913,280 @@ p:hover {
   outline: none;
   color: white;
 }
-   
-    /* cards-4 */
 
-    .cards-4 {
-      height: 52vw;
-      width: 20vw;
-      margin-left: 2vw;
+/* cards-4 */
+
+.cards-4 {
+  height: 52vw;
+  width: 20vw;
+  margin-left: 2vw;
+  margin-top: 5vw;
+  background: white;
+  border-radius: 0.8vw;
+  box-sizing: border-box;
+}
+.cards-4 img {
+  height: 15vw;
+  width: 20vw;
+  box-sizing: border-box;
+  border-radius: 0.8vw;
+  border-bottom-left-radius: 0vw;
+  border-bottom-right-radius: 0vw;
+}
+.cards-4 h2 {
+  font-size: 1.3vw;
+  color: #fd4c82;
+  margin-left: 6.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+.cards-4 .lesser {
+  margin-left: 5vw;
+  font-size: 3vw;
+  color: #9e9b9b;
+}
+.cards-4 .greater {
+  font-size: 4vw;
+  font-weight: 800;
+  color: #fd4c82;
+}
+.cards-4 .smaller {
+  font-size: 1.5vw;
+  color: #9e9b9b;
+}
+.icon-padding {
+  margin-top: 2vw;
+  margin-left: 2.3vw;
+  margin-bottom: 2vw;
+}
+.icon-padding .icon {
+  padding: 1vw 4vw;
+  background: whitesmoke;
+}
+.icon i {
+  color: #fd4c82;
+}
+.iconss {
+  margin-left: 6.3vw;
+  margin-bottom: 2vw;
+}
+.iconss i {
+  color: #fd4c82;
+}
+.iconsss {
+  background: whitesmoke;
+  padding: 1vw 4.5vw;
+  margin-left: 2.1vw;
+}
+.iconsss i {
+  color: #fd4c82;
+}
+.iconssss {
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+  margin-left: 5.7vw;
+}
+.iconssss i {
+  color: #fd4c82;
+}
+.card-button {
+  background: #fd4c82;
+  margin-left: 2.9vw;
+  padding: 1vw 4vw;
+  border: none;
+  border-radius: 0.6vw;
+  outline: none;
+  color: white;
+}
+.justify {
+  display: flex;
+  justify-content: center;
+}
+.paragraph h6 {
+  font-size: 1vw;
+  color: #fd4c82;
+  margin-top: 2vw;
+  /* margin-left: 9.7vw; */
+  font-weight: 800;
+}
+.paragraph h2 {
+  margin-bottom: 4vw;
+}
+.all-cards{
+  display: flex;
+  justify-content: center;
+}
+/* cards-5 */
+
+.cards-5 {
+  height: 44vw;
+  width: 27vw;
+  margin-top: 5vw;
+  background: white;
+  box-sizing: border-box;
+}
+.cards-5 img {
+  height: 25vw;
+  width: 100%;
+  box-sizing: border-box;
+  /* border-radius: 0.8vw;
+  border-bottom-left-radius: 0vw;
+  border-bottom-right-radius: 0vw; */
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+.flex-1 i {
+  font-size: 0.8vw;
+  color: #fd4e83;
+}
+.padding-1 {
+  padding-left: 2.3vw;
+}
+.flex-1 {
+  font-size: 1vw;
+  color: #fd4e83;
+}
+
+.flex-2 h3 {
+  font-size: 1.4vw;
+}
+.flex-2:hover{
+  color: #fd4e83;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.f-part-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+.flex-3 i {
+  font-size: 0.8vw;
+  color: #fd4e83;
+}
+.flex-3 {
+  font-size: 1vw;
+  padding-left: 1.5vw;
+  color: #fd4e83;
+}
+.flex-4 h3 {
+  font-size: 1.3vw;
+  padding-right: 4vw;
+  padding-top: 1.5vw;
+  color: #9e9b9b;
+}
+.padding-2 {
+  padding-left: 3vw;
+}
+.card-button-2 {
+  background: #fd4c82;
+  margin-left: 9vw;
+  margin-top: 1vw;
+  padding: 0.6vw 1vw;
+  border: none;
+  border-radius: 0.6vw;
+  outline: none;
+  color: white;
+}
+
+  /* cards-6 */
+
+  .cards-6 {
+    height: 44vw;
+    width: 27vw;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    background: white;
+    box-sizing: border-box;
+  }
+  .cards-6 img {
+    height: 25vw;
+    width: 100%;
+    box-sizing: border-box;
+    /* border-radius: 0.8vw;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 0vw; */
+  }
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+  }
+  .flex-1 i {
+    font-size: 0.8vw;
+    color: #fd4e83;
+  }
+  .padding-1 {
+    padding-left: 2.3vw;
+  }
+  .flex-1 {
+    font-size: 1vw;
+    color: #fd4e83;
+  }
+  
+  .flex-2 h3 {
+    font-size: 1.4vw;
+  }
+  .flex-2:hover{
+    color: #fd4e83;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .f-part-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+  }
+
+    /* cards-7  */
+ 
+    .cards-7 {
+      height: 44vw;
+      width: 27vw;
+      margin-left: 3vw;
       margin-top: 5vw;
       background: white;
-      border-radius: 0.8vw;
       box-sizing: border-box;
     }
-    .cards-4 img {
-      height: 15vw;
-      width: 20vw;
+    .cards-7 img {
+      height: 25vw;
+      width: 100%;
       box-sizing: border-box;
-      border-radius: 0.8vw;
+      /* border-radius: 0.8vw;
       border-bottom-left-radius: 0vw;
-      border-bottom-right-radius: 0vw;
+      border-bottom-right-radius: 0vw; */
     }
-    .cards-4 h2 {
-      font-size: 1.3vw;
-      color: #fd4c82;
-      margin-left: 6.5vw;
+    .flex {
+      display: flex;
+      justify-content: space-around;
       margin-top: 2vw;
-      margin-bottom: 2vw;
-      font-weight: bold;
     }
-    .cards-4 .lesser {
-      margin-left: 5vw;
-      font-size: 3vw;
-      color: #9e9b9b;
+    .flex-1 i {
+      font-size: 0.8vw;
+      color: #fd4e83;
     }
-    .cards-4 .greater {
-      font-size: 4vw;
-      font-weight: 800;
-      color: #fd4c82;
+    .padding-1 {
+      padding-left: 2.3vw;
     }
-    .cards-4 .smaller {
-      font-size: 1.5vw;
-      color: #9e9b9b;
+    .flex-1 {
+      font-size: 1vw;
+      color: #fd4e83;
     }
-    .icon-padding {
-      margin-top: 2vw;
-      margin-left: 2.3vw;
-      margin-bottom: 2vw;
+    
+    .flex-2 h3 {
+      font-size: 1.4vw;
     }
-    .icon-padding .icon {
-      padding: 1vw 4vw;
-      background: whitesmoke;
+    .flex-2:hover{
+      color: #fd4e83;
+      cursor: pointer;
+      transition: 0.3s;
     }
-    .icon i {
-      color: #fd4c82;
-    }
-    .iconss {
-      margin-left: 6.3vw;
-      margin-bottom: 2vw;
-    }
-    .iconss i {
-      color: #fd4c82;
-    }
-    .iconsss {
-      background: whitesmoke;
-      padding: 1vw 4.5vw;
-      margin-left: 2.1vw;
-    }
-    .iconsss i {
-      color: #fd4c82;
-    }
-    .iconssss {
-      padding-top: 2vw;
-      padding-bottom: 4vw;
-      margin-left: 5.7vw;
-    }
-    .iconssss i {
-      color: #fd4c82;
-    }
-    .card-button {
-      background: #fd4c82;
-      margin-left: 2.9vw;
-      padding: 1vw 4vw;
-      border: none;
-      border-radius: 0.6vw;
-      outline: none;
-      color: white;
+    .f-part-2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1vw;
     }
