@@ -650,12 +650,12 @@ p:hover {
 .bg-attachment h1 {
   font-weight: bolder;
 }
-.one-again-cards-start{
+.one-again-cards-start {
   display: flex;
   justify-content: center;
 }
 
-   /* cards-1 */
+/* cards-1 */
 
 .cards-1 {
   height: 52vw;
@@ -740,14 +740,13 @@ p:hover {
   outline: none;
   color: white;
 }
-  
-/* cards-2 */
 
+/* cards-2 */
 
 .cards-2 {
   height: 52vw;
   width: 20vw;
-  margin-left: 5vw;
+  margin-left: 2vw;
   margin-top: 5vw;
   background: white;
   border-radius: 0.8vw;
@@ -780,6 +779,92 @@ p:hover {
   color: #fd4c82;
 }
 .cards-2 .smaller {
+  font-size: 1.5vw;
+  color: #9e9b9b;
+}
+.icon-padding {
+  margin-top: 2vw;
+  margin-left: 2.3vw;
+  margin-bottom: 2vw;
+}
+.icon-padding .icon {
+  padding: 1vw 4vw;
+  background: whitesmoke;
+}
+.icon i {
+  color: #fd4c82;
+}
+.iconss {
+  margin-left: 6.3vw;
+  margin-bottom: 2vw;
+}
+.iconss i {
+  color: #fd4c82;
+}
+.iconsss {
+  background: whitesmoke;
+  padding: 1vw 4.5vw;
+  margin-left: 2.1vw;
+}
+.iconsss i {
+  color: #fd4c82;
+}
+.iconssss {
+  padding-top: 2vw;
+  padding-bottom: 4vw;
+  margin-left: 5.7vw;
+}
+.iconssss i {
+  color: #fd4c82;
+}
+.card-button {
+  background: #fd4c82;
+  margin-left: 2.9vw;
+  padding: 1vw 4vw;
+  border: none;
+  border-radius: 0.6vw;
+  outline: none;
+  color: white;
+}
+
+/* cards-3 */
+
+.cards-3 {
+  height: 52vw;
+  width: 20vw;
+  margin-left: 2vw;
+  margin-top: 5vw;
+  background: white;
+  border-radius: 0.8vw;
+  box-sizing: border-box;
+}
+.cards-3 img {
+  height: 15vw;
+  width: 20vw;
+  box-sizing: border-box;
+  border-radius: 0.8vw;
+  border-bottom-left-radius: 0vw;
+  border-bottom-right-radius: 0vw;
+}
+.cards-3 h2 {
+  font-size: 1.3vw;
+  color: #fd4c82;
+  margin-left: 6.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+.cards-3 .lesser {
+  margin-left: 5vw;
+  font-size: 3vw;
+  color: #9e9b9b;
+}
+.cards-3 .greater {
+  font-size: 4vw;
+  font-weight: 800;
+  color: #fd4c82;
+}
+.cards-3 .smaller {
   font-size: 1.5vw;
   color: #9e9b9b;
 }
