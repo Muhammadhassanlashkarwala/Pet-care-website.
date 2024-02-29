@@ -1195,3 +1195,60 @@ footer {
   width: 100%;
   background: #d6d4d4;
 }
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-1 {
+  padding: 10vw 3vw 0vw 2vw;
+}
+.child-1 h3 {
+  font-weight: 800;
+}
+.child-1 span {
+  font-size: 1.2vw;
+  color: #fd4e83;
+}
+.bg-op-2 i {
+  font-size: 1vw;
+  padding: 0.8vw 1vw;
+  margin-right: 1vw;
+  background: #fd4e83;
+  color: white;
+  border-radius: 0.3vw;
+}
+.child-2 {
+  margin-top: 7vw;
+  margin-left: 3vw;
+}
+.child-2 h5 {
+  font-size: 1.3vw;
+  font-weight: 700;
+}
+.child-2 span {
+  font-weight: 800;
+  color: #fd4e83;
+}
+.child-2 .font-size{
+  color: #fd4e83;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+}
+.child-3 {
+  margin-top: 7vw;
+  margin-left: 18vw;
+}
+.child-3 h5 {
+  font-size: 1.3vw;
+  font-weight: 700;
+}
+.child-3 span {
+  font-weight: 800;
+  color: #fd4e83;
+}
+.child-3 .font-size{
+  color: #fd4e83;
+  font-size: 1.5vw;
+  margin-right: 1vw;
+}
