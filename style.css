@@ -1193,15 +1193,15 @@ p:hover {
 footer {
   height: 100vh;
   width: 100%;
-  background: #d6d4d4;
+  background: #e0e0e0;
 }
 .parent {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .child-1 {
-  padding: 10vw 3vw 0vw 2vw;
+  padding: 7vw 3vw 0vw 2vw;
 }
 .child-1 h3 {
   font-weight: 800;
@@ -1230,7 +1230,7 @@ footer {
   font-weight: 800;
   color: #fd4e83;
 }
-.child-2 .font-size{
+.child-2 .font-size {
   color: #fd4e83;
   font-size: 1.5vw;
   margin-right: 1vw;
@@ -1247,7 +1247,7 @@ footer {
   font-weight: 800;
   color: #fd4e83;
 }
-.child-3 .font-size{
+.child-3 .font-size {
   color: #fd4e83;
   font-size: 1.5vw;
   margin-right: 1vw;
