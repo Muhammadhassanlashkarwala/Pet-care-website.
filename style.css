@@ -1027,9 +1027,10 @@ p:hover {
   box-sizing: border-box;
 }
 .cards-5 img {
-  height: 25vw;
+  height: 22vw;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 3vw;
   /* border-radius: 0.8vw;
   border-bottom-left-radius: 0vw;
   border-bottom-right-radius: 0vw; */
@@ -1104,9 +1105,10 @@ p:hover {
   box-sizing: border-box;
 }
 .cards-6 img {
-  height: 25vw;
+  height: 22vw;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 3vw;
   /* border-radius: 0.8vw;
     border-bottom-left-radius: 0vw;
     border-bottom-right-radius: 0vw; */
@@ -1153,9 +1155,10 @@ p:hover {
   box-sizing: border-box;
 }
 .cards-7 img {
-  height: 25vw;
+  height: 22vw;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 3vw;
   /* border-radius: 0.8vw;
       border-bottom-left-radius: 0vw;
       border-bottom-right-radius: 0vw; */
@@ -1235,9 +1238,14 @@ footer {
   font-size: 1.5vw;
   margin-right: 1vw;
 }
+.child-2 p:hover{
+  color: #fd4e83 !important;
+  transition: 0.2s;
+  cursor: pointer;
+}
 .child-3 {
   margin-top: 7vw;
-  margin-left: 18vw;
+  margin-left: 15vw;
 }
 .child-3 h5 {
   font-size: 1.3vw;
@@ -1251,4 +1259,38 @@ footer {
   color: #fd4e83;
   font-size: 1.5vw;
   margin-right: 1vw;
+}
+.child-3 p:hover{
+  color: #fd4e83 !important;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.child-4 {
+  margin-top: 7vw;
+  margin-left: 10vw;
+}
+.child-4 h5 {
+  font-size: 1.3vw;
+  font-weight: 700;
+  margin-bottom: 3vw;
+}
+.child-4 span {
+  font-weight: 800;
+  color: #fd4e83;
+}
+.child-4 .black i {
+  margin-right: 0.6vw;
+  font-size: 1.3vw;
+  color: black;
+}
+.child-4 .last-two-icons i{
+  color: #fd4e83;
+  margin-right: 0.6vw;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+.last-two-icons .font-color{
+  color: #fd4e83;
+  cursor: pointer;
+  font-weight:normal ;
 }
