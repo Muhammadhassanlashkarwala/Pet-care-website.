@@ -1238,7 +1238,7 @@ footer {
   font-size: 1.5vw;
   margin-right: 1vw;
 }
-.child-2 p:hover{
+.child-2 p:hover {
   color: #fd4e83 !important;
   transition: 0.2s;
   cursor: pointer;
@@ -1260,7 +1260,7 @@ footer {
   font-size: 1.5vw;
   margin-right: 1vw;
 }
-.child-3 p:hover{
+.child-3 p:hover {
   color: #fd4e83 !important;
   transition: 0.2s;
   cursor: pointer;
@@ -1283,14 +1283,27 @@ footer {
   font-size: 1.3vw;
   color: black;
 }
-.child-4 .last-two-icons i{
+.child-4 .last-two-icons i {
   color: #fd4e83;
   margin-right: 0.6vw;
   font-size: 1.3vw;
   cursor: pointer;
 }
-.last-two-icons .font-color{
+.last-two-icons .font-color {
   color: #fd4e83;
   cursor: pointer;
-  font-weight:normal ;
+  font-weight: normal;
+}
+.footer-name {
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3.8vw;
+  color: rgba(255, 255, 255, 0.7);
+  background: black;
+}
+.footer-name h3{
+  font-size: 1.2vw;
 }
